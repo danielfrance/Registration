@@ -30,6 +30,7 @@
 							}
 						break;
 						case 'password':
+						$password = $value;
 							if (strlen($value) < 6) 
 							{
 								$_SESSION['error'][$name] = $name . ' must be greater than 6 characters.';
